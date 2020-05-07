@@ -24,7 +24,7 @@
                                     <td><?= $ssw['Prodi'] ?></td>
                                     <td><?= $ssw['Asal_Sekolah'] ?></td>
                                     <td>
-                                        <a class="btn" href="">Detail</a>
+                                        <a class="btn" href="<?= base_url(); ?>home/detail_pendaftar/<?= $ssw['id']; ?>">Detail</a>
                                     </td>
                                     <td>
                                         <a class="btn-cta" href="#verif">Lulus</a>

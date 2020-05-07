@@ -1,7 +1,7 @@
 <aside id="colorlib-hero">
     <div class="flexslider">
         <ul class="slides">
-            <li style="background-image: url<?= base_url('assets/'); ?>/images/atm">
+            <li style="background-image: url(<?= base_url('assets/images/atm.jpg'); ?>)">
                 <div class="overlay"></div>
                 <div class="container-fluid">
                     <div class="row">

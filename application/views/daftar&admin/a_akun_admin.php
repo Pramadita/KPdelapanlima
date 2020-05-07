@@ -11,7 +11,6 @@
             </ol>
         </div>
     </header>
-
     <!-- start: page -->
     <div class="row">
         <div class="col-md-6 col-lg-12 col-xl-6">
@@ -75,6 +74,7 @@
             </p>
         </div>
     </div>
+    <!-- end page -->
 </section>
 </div>
 

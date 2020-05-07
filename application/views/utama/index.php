@@ -2,7 +2,7 @@
     <div class="flexslider">
         <ul class="slides">
 
-            <li style="background-image:url(<?= base_url('assets/'); ?>/images/atm.jpg);">
+            <li style="background-image:url(<?= base_url('assets/images/atm.jpg'); ?>)">
                 <div class="overlay"></div>
                 <div class="container-fluid">
                     <div class="row">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </li>
-            <li style="background-image: url(<?= base_url('assets/'); ?>/images/murid.jpg);">
+            <li style="background-image: url(<?= base_url('assets/images/murid.jpg'); ?>)">
                 <div class="overlay"></div>
                 <div class="container-fluid">
                     <div class="row">
@@ -41,7 +41,8 @@
                     <div class="one-third color-1 animate-box">
                         <span class="icon"><i class="flaticon-market"></i></span>
                         <div class="desc">
-                            <h3>Sebelum Daftar pastikan anda sudah membaca ketentuan.</h3>
+                            <h3>Sebelum Daftar pastikan anda sudah membaca ketentuan pada panduan.</h3>
+                            <p><a href="<?= base_url('auth/form_daftar'); ?>" class="view-more">Daftar</a></p>
                         </div>
                     </div>
                 </div>
@@ -149,7 +150,7 @@
                 <div class="row">
                     <div class="col-md-4 animate-box">
                         <div class="classes">
-                            <div class="classes-img" style="background-image: url(<?= base_url('assets/'); ?>images/atuu.jpg);">
+                            <div class="classes-img" style="background-image: url(<?= base_url('assets/images/atuu.jpg'); ?>)">
                             </div>
                             <div class="desc">
                                 <h3><a href="#">Agribisnis Ternak Unggas</a></h3>
@@ -160,7 +161,7 @@
                     </div>
                     <div class="col-md-4 animate-box">
                         <div class="classes">
-                            <div class="classes-img" style="background-image: url(<?= base_url('assets/'); ?>images/upw.jpg);">
+                            <div class="classes-img" style="background-image: url(<?= base_url('assets/images/upw.jpg'); ?>)">
                             </div>
                             <div class="desc">
                                 <h3><a href="#">Usaha Perjalanan Wisata</a></h3>
@@ -171,7 +172,7 @@
                     </div>
                     <div class="col-md-4 animate-box">
                         <div class="classes">
-                            <div class="classes-img" style="background-image: url(<?= base_url('assets/'); ?>images/atuu.jpg);">
+                            <div class="classes-img" style="background-image: url(<?= base_url('assets/images/atuu.jpg'); ?>)">
                             </div>
                             <div class="desc">
                                 <h3><a href="#">Pemasaran</a></h3>

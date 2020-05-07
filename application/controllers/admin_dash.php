@@ -28,6 +28,7 @@ class admin_dash extends CI_Controller
         $this->load->view('daftar&admin/a_tambah_daftar');
         $this->load->view('templates/footer2');
     }
+
     public function tambah_daftar_admin()
     {
         $this->model_siswa->tambahdatasiswa();
@@ -42,6 +43,7 @@ class admin_dash extends CI_Controller
         $this->load->view('daftar&admin/a_set_pengumuman');
         $this->load->view('templates/footer2');
     }
+
     public function tambah_data()
     {
         $this->model_admin->tambahdatasekolah();
@@ -75,7 +77,7 @@ class admin_dash extends CI_Controller
         $data['siswa'] = $this->model_siswa->getsiswabyid($id);
         $this->load->view('templates/header2', $data);
         $this->load->view('templates/nav_admin');
-        $this->load->view('daftar&admin/a_detail', $data);
+        $this->load->view('daftar&admin/detail/a_detail', $data);
         $this->load->view('templates/footer2');
     }
 

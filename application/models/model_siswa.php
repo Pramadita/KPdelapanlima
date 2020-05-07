@@ -85,15 +85,6 @@ class model_siswa extends CI_model
     {
         return $this->db->get_where('siswa', ['id' => $id])->row_array();
     }
-
-    /*public function getsiswa($limit, $start, $keyword = null)
-    {
-        if ($keyword) {
-            $this->db->like('Nama_Siswa', $keyword);
-        }
-        return $this->db->get('siswa', $limit, $start)->result_array();
-    }*/
-
     public function countallsiswa()
     {
         return $this->db->get('siswa')->num_rows();

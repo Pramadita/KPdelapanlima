@@ -143,7 +143,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="w4-un">NIK * :</label>
+                                    <label class="col-sm-3 control-label" for="w4-nik">NIK * :</label>
                                     <div class="col-sm-5">
                                         <input type="text" class="form-control" name="nik" id="w4-nik" value="<?= $siswa['NIK']; ?>">
                                     </div>
@@ -167,7 +167,7 @@
                                     <div class="col-md-3">
                                         <select class="form-control mb-md" name="transport" id="w4-transport">
                                             <?php foreach ($Transport as $transport) : ?>
-                                                <?php if ($transport == $siswa['Transpostasi']) : ?>
+                                                <?php if ($transport == $siswa['Transportasi']) : ?>
                                                     <option value="<?= $transport; ?>" selected> <?= $transport; ?></option>
                                                 <?php else : ?>
                                                     <option value="<?= $transport; ?>"><?= $transport; ?></option>
@@ -454,13 +454,13 @@
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label" for="w4-jepres2">Prestasi 2:</label>
                                         <div class="col-sm-9">
-                                            <textarea class="form-control" name="prestasi2" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;" ><?= $siswa['Prestasi_2']; ?></textarea>
+                                            <textarea class="form-control" name="prestasi2" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;"><?= $siswa['Prestasi_2']; ?></textarea>
                                             <label>maksimal 200 karakter</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label" for="w4-jepres3">Prestasi 3:</label>
-                                        <div class="col-sm-9"><textarea class="form-control" name="prestasi3" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;" ><?= $siswa['Prestasi_3']; ?></textarea>
+                                        <div class="col-sm-9"><textarea class="form-control" name="prestasi3" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;"><?= $siswa['Prestasi_3']; ?></textarea>
                                             <label>maksimal 200 karakter</label>
                                         </div>
                                     </div>
@@ -470,21 +470,21 @@
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label" for="w4-beasiswa">Beasiswa 1 :</label>
                                         <div class="col-sm-9">
-                                            <textarea class="form-control" name="beasiswa1" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;" ><?= $siswa['Beasiswa_1']; ?></textarea>
+                                            <textarea class="form-control" name="beasiswa1" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;"><?= $siswa['Beasiswa_1']; ?></textarea>
                                             <label>maksimal 200 karakter</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label" for="w4-beasiswa2">Beasiswa 2:</label>
                                         <div class="col-sm-9">
-                                            <textarea class="form-control" name="beasiswa2" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;" ><?= $siswa['Beasiswa_2']; ?></textarea>
+                                            <textarea class="form-control" name="beasiswa2" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;"><?= $siswa['Beasiswa_2']; ?></textarea>
                                             <label>maksimal 200 karakter</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label" for="w4-beasiswa3">Beasiswa 3:</label>
                                         <div class="col-sm-9">
-                                            <textarea class="form-control" name="beasiswa3" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;"><?= $siswa['Beasiswa_3']; ?></textarea >
+                                            <textarea class="form-control" name="beasiswa3" rows="3" id="textareaAutosize" data-plugin-textarea-autosize="" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 74px;"><?= $siswa['Beasiswa_3']; ?></textarea>
                                             <label>maksimal 200 karakter</label>
                                         </div>
                                     </div>
@@ -498,55 +498,55 @@
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-akta">Akta Lahir * :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="akta" id="w4-akta"><?= $siswa['Akta_Lahir']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="akta" id="w4-akta"><?= $siswa['Akta_Lahir']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-kk">Scan Kartu Keluarga * :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="kk" id="w4-kk"><?= $siswa['KK']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="kk" id="w4-kk"><?= $siswa['KK']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-bioraport">Scan Biodata pada Raport SMP * :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="bioraport" id="w4-bioraport" ><?= $siswa['Bio_Raport']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="bioraport" id="w4-bioraport"><?= $siswa['Bio_Raport']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-ktpa">Scan KTP Ayah * :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="ktpa" id="w4-ktpa"><?= $siswa['KTP_Ayah']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="ktpa" id="w4-ktpa"><?= $siswa['KTP_Ayah']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-ktpi">Scan KTP Ibu * :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="ktpi" id="w4-ktpi"><?= $siswa['KTP_Ibu']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="ktpi" id="w4-ktpi"><?= $siswa['KTP_Ibu']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-sijazah">Scan Ijazah SMP :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="sijazah" id="w4-sijazah" ><?= $siswa['Ijazah_SMP']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="sijazah" id="w4-sijazah"><?= $siswa['Ijazah_SMP']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-sskhun">Scan SKHUN SMP :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="sskhun" id="w4-sskhun"><?= $siswa['SKHUN_SMP']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="sskhun" id="w4-sskhun"><?= $siswa['SKHUN_SMP']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-sulus">Scan Surat Kelulusan SMP :</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="sulus" id="w4-sulus"><?= $siswa['Surat_Lulus_SMP']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="sulus" id="w4-sulus"><?= $siswa['Surat_Lulus_SMP']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="w4-kpspkh">Scan KPS/PKH (jika ada):</label>
                                     <div class="col-sm-5">
-                                        <input type="file"  accept="image/*" class="form-control" name="kpspkh" id="w4-kpspkh"><?= $siswa['KPS/PKH']; ?></input>
+                                        <input type="file" accept="image/*" class="form-control" name="kpspkh" id="w4-kpspkh"><?= $siswa['KPS/PKH']; ?></input>
                                     </div>
                                 </div>
                                 <div class="form-group">

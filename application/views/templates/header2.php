@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="boxed">
+<html>
 
 <head>
 
@@ -24,9 +24,6 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/assets/vendor/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="<?= base_url(); ?>assets/assets/vendor/magnific-popup/magnific-popup.css" />
     <link rel="stylesheet" href="<?= base_url(); ?>assets/assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
 
     <!-- Specific Page Vendor CSS -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
